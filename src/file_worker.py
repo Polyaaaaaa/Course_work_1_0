@@ -2,6 +2,7 @@ import json
 import os
 from abc import ABC, abstractmethod
 
+
 class AbstractVacancyConnector(ABC):
     @abstractmethod
     def add_vacancy(self, vacancy_data):
@@ -18,11 +19,12 @@ class AbstractVacancyConnector(ABC):
         """Удалить вакансию"""
         pass
 
+
 class JSONSaver(AbstractVacancyConnector):
     def __init__(self, filename):
         self.filename = filename
         if not os.path.exists(self.filename):
-            with open(self.filename, "w", encoding='utf-8') as file:
+            with open(self.filename, "w", encoding="utf-8") as file:
                 json.dump([], file)  # Создаем пустой файл
 
     def add_vacancy(self, vacancy_data):
@@ -33,7 +35,7 @@ class JSONSaver(AbstractVacancyConnector):
             "description": vacancy_data.description,
             "id": vacancy_data.id,  # Добавляем id
         }
-        with open(self.filename, "r+", encoding='utf-8') as file:
+        with open(self.filename, "r+", encoding="utf-8") as file:
             vacancies = json.load(file)
             vacancies.append(vacancy_dict)
             file.seek(0)
@@ -41,7 +43,7 @@ class JSONSaver(AbstractVacancyConnector):
             file.truncate()
 
     def get_vacancies(self, criteria):
-        with open(self.filename, "r", encoding='utf-8') as file:
+        with open(self.filename, "r", encoding="utf-8") as file:
             vacancies = json.load(file)
             result = []
 
@@ -60,7 +62,7 @@ class JSONSaver(AbstractVacancyConnector):
             return result
 
     def delete_vacancy(self, vacancy_id):
-        with open(self.filename, "r+", encoding='utf-8') as file:
+        with open(self.filename, "r+", encoding="utf-8") as file:
             vacancies = json.load(file)
 
             not_suitable = []
