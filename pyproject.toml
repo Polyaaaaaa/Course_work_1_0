@@ -1,12 +1,17 @@
 [tool.poetry]
-name = "course-work-1-0"
+name = "coursework-1"
 version = "0.1.0"
 description = ""
-authors = ["Polyaaaaaa <polinasatrajkina@gmail.com>"]
+authors = ["Polyaa <polinasatrajkina@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+black = "^24.10.0"
+mypy = "^1.13.0"
+isort = "^5.13.2"
+flake8 = "^7.1.1"
+requests = "^2.32.3"
 
 
 [build-system]
