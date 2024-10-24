@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2998af-b42b-45bf-a47d-a85a602596c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/file_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vacancy_worker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vacancies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hh.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/hh_api_worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vacancies.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/vacancies.json" afterDir="false" />
-    </list>
+    <list default="true" id="ef2998af-b42b-45bf-a47d-a85a602596c1" name="Changes" comment="add main func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,10 +48,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.file_worker.executor": "Run",
     "Python.hh.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -157,6 +152,36 @@
       <option name="presentableId" value="Default" />
       <updated>1729756564441</updated>
     </task>
+    <task id="LOCAL-00001" summary="rewrite skeleton">
+      <option name="closed" value="true" />
+      <created>1729773612066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729773612067</updated>
+    </task>
+    <task id="LOCAL-00002" summary="rewrite skeleton">
+      <option name="closed" value="true" />
+      <created>1729773659665</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729773659665</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add main func">
+      <option name="closed" value="true" />
+      <created>1729773696844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729773696844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rewrite skeleton" />
+    <MESSAGE value="add main func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add main func" />
   </component>
 </project>
